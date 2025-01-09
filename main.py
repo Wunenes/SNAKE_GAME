@@ -31,7 +31,7 @@ while game_is_on:
         snake.extend()
         score += 1
 
-    if snake.segments[0].xcor() > 240 or snake.segments[0].ycor() > 250 or snake.segments[0].ycor() < -250 or \
+    if snake.segments[0].xcor() > 240 or snake.segments[0].ycor() > 240 or snake.segments[0].ycor() < -240 or \
             snake.segments[0].xcor() < -250:
         score = 0
         snake.reset()
